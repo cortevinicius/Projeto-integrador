@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestão de Talentos</title>
+  <link rel="stylesheet" href="gestao.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<aside class="sidebar">
+
+  <div class="top">
+    <div class="logo">
+      <div class="logo-icon"></div>
+      <div>
+        <h3>SENAI-CIC</h3>
+        <span>INDUSTRIAL INTEL</span>
+      </div>
+    </div>
+
+    <ul class="menu">
+      <li>Dashboard</li>
+      <li>Profile</li>
+      <li class="active">Classes</li>
+      <li>Reports</li>
+    </ul>
+  </div>
+
+  <div class="bottom">
+    <button class="btn">Update Status</button>
+    <p class="logout">⎋ Logout</p>
+  </div>
+
+</aside>
+
+<main class="main">
+
+  <header class="header">
+    <h2>Classes & Apprentice List</h2>
+
+    <div class="header-right">
+      <div class="icon"></div>
+      <div class="icon"></div>
+      <div class="user">
+        <span>Instrutor Silva</span>
+        <div class="avatar"></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="title">
+    <div>
+      <span class="small">OVERVIEW</span>
+      <h1>Gestão de Talentos</h1>
+    </div>
+
+    <div class="stats">
+      <div>
+        <strong>42</strong>
+        <span>APRENDIZES ATIVOS</span>
+      </div>
+      <div>
+        <strong>89%</strong>
+        <span>RETENÇÃO TÉCNICA</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="filters">
+    <input type="text" placeholder="Search by name or apprentice ID...">
+    <select><option>Class: All Classes</option></select>
+    <select><option>Sector: All Sectors</option></select>
+    <select><option>Competency: High Priority</option></select>
+  </section>
+
+  <section class="table">
+    <table>
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>CLASS</th>
+          <th>SECTOR</th>
+          <th>HIGHER ED</th>
+          <th>INTERNSHIP</th>
+          <th>ACTIONS</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="user-cell">
+            <span class="avatar-sm blue">AG</span>
+            <div>
+              <strong>Alexandre Garcia</strong>
+              <small>ID: 14820-1</small>
+            </div>
+          </td>
+          <td>MEC-24-A</td>
+          <td>Manutenção Industrial</td>
+          <td><span class="badge green">Graduado</span></td>
+          <td><span class="badge blue">Ativo - BMW</span></td>
+          <td class="link">View Profile</td>
+        </tr>
+
+        <tr>
+          <td class="user-cell">
+            <span class="avatar-sm gray">BM</span>
+            <div>
+              <strong>Beatriz Mendes</strong>
+              <small>ID: 89220-3</small>
+            </div>
+          </td>
+          <td>ELT-24-B</td>
+          <td>Sistemas Elétricos</td>
+          <td><span class="badge gray">Em Curso</span></td>
+          <td><span class="badge blue">Ativo - WEG</span></td>
+          <td class="link">View Profile</td>
+        </tr>
+
+        <tr>
+          <td class="user-cell">
+            <span class="avatar-sm red">CR</span>
+            <div>
+              <strong>Carlos Roberto</strong>
+              <small>ID: 44881-0</small>
+            </div>
+          </td>
+          <td>MEC-24-A</td>
+          <td>Logística Pesada</td>
+          <td><span class="badge red">Pendente</span></td>
+          <td><span class="badge gray">Aguardando</span></td>
+          <td class="link">View Profile</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="footer-cards">
+    <div class="card-dark">
+      <p>TURMA EM DESTAQUE</p>
+      <h2>MEC-24-A</h2>
+      <div class="progress"><div></div></div>
+      <span>94%</span>
+    </div>
+
+    <div class="card-light">
+      <h3>Próximos Alinhamentos</h3>
+      <button>Agendar Reunião Coletiva</button>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
