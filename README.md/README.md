@@ -177,6 +177,34 @@ A documentação do projeto contém:
 
 ---
 
+# 📐 UML e Diagramas
+
+Os diagramas UML do sistema estão disponíveis na pasta `/uml`.
+
+- Caso de Uso
+- Diagrama de Classe
+- Diagrama de Atividade
+
+---
+
+# 📊 Fluxogramas
+
+Os fluxogramas do sistema estão disponíveis na pasta `/fluxogramas`.
+
+Fluxos documentados:
+- Login
+- Cadastro de Alunos
+- Cadastro de Turmas
+  
+---
+
+# 📄 Documentação
+
+A documentação do projeto está disponível na pasta `/docs`.
+
+---
+
+
 # ✅ Status do Projeto
 
 🚧 Em desenvolvimento
