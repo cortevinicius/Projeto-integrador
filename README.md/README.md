@@ -1,92 +1,182 @@
-# Projeto INtegrador
+# 📘 Projeto Integrador — Sistema de Gestão de Turmas e Alunos
 
-## 📌 Funcionalidades do Sistema
+## 📖 Sobre o Projeto
 
-### 🔐 Tela de Login
-Responsável por autenticar os usuários no sistema, permitindo acesso seguro através de email e senha.
+O sistema de Gestão de Turmas e Alunos foi desenvolvido com o objetivo de facilitar o gerenciamento acadêmico de alunos, turmas e instrutores, oferecendo uma plataforma intuitiva, organizada e eficiente.
 
----
-
-### 🔑 Recuperar Senha
-Funcionalidade que permite ao usuário redefinir sua senha caso a esqueça, garantindo acesso contínuo ao sistema.
+O projeto foi desenvolvido como parte do Projeto Integrador Interdisciplinar do SENAI, envolvendo conhecimentos de Banco de Dados, Desenvolvimento Web, Engenharia de Software, Linguagem de Programação, Redes e Metodologia Científica.
 
 ---
 
-### 🧑‍🏫 Dashboard do Instrutor
-Painel principal do instrutor, onde é possível gerenciar alunos, turmas e acompanhar informações gerais do sistema.
+# 🎯 Objetivo
 
-**Funções:**
-- Visualizar alunos  
-- Gerenciar turmas  
-- Acompanhar dados e atividades  
+Desenvolver uma aplicação web capaz de realizar o gerenciamento de alunos e turmas, permitindo maior controle das informações acadêmicas, organização das atividades e melhor acompanhamento dos usuários do sistema.
 
 ---
 
-### 🧑‍🎓 Dashboard do Aprendiz
-Área dedicada ao aluno (aprendiz), onde ele pode visualizar suas informações e acompanhar seu progresso.
+# 🚀 Funcionalidades do Sistema
 
-**Funções:**
-- Visualizar dados pessoais  
-- Acompanhar atividades  
-- Ver informações das aulas  
+## 🔐 Tela de Login
+Responsável pela autenticação dos usuários através de e-mail e senha, garantindo acesso seguro ao sistema.
 
 ---
 
-### 👤 Perfil do Administrador
-Área onde o administrador pode visualizar e gerenciar suas informações dentro do sistema.
+## 🔑 Recuperação de Senha
+Permite que o usuário redefina sua senha em caso de esquecimento.
 
 ---
 
-### 👤 Perfil do Aprendiz
-Permite ao aluno visualizar e editar seus dados pessoais.
+## 🧑‍🏫 Dashboard do Instrutor
+
+Painel principal do instrutor contendo:
+
+- Visualização de alunos
+- Gerenciamento de turmas
+- Acompanhamento de informações do sistema
 
 ---
 
-### 🔄 Atualização de Perfil
-Funcionalidade que possibilita a edição de informações como nome, email e outros dados do usuário.
+## 🧑‍🎓 Painel do Aprendiz
+
+Área destinada ao aluno para:
+
+- Visualização de dados pessoais
+- Acompanhamento de atividades
+- Consulta de informações das aulas
 
 ---
 
-### 📚 Gestão de Turmas e Alunos
-Permite o controle completo das turmas e alunos cadastrados no sistema.
+## 👤 Perfil do Usuário
 
-**Funções:**
-- Criar turmas  
-- Adicionar alunos  
-- Editar informações  
-- Organizar dados  
+Permite visualizar e editar informações pessoais como:
 
----
-
-### ➕ Cadastro e Edição de Aprendiz
-Responsável pelo registro de novos alunos e atualização de seus dados no sistema.
+- Nome
+- E-mail
+- Senha
+- Dados cadastrais
 
 ---
 
-### 🗄️ Banco de Dados
-Estrutura responsável por armazenar todas as informações do sistema, como usuários, turmas e atividades.
+## 📚 Gestão de Turmas e Alunos
+
+Funcionalidades responsáveis pelo gerenciamento acadêmico:
+
+- Cadastro de turmas
+- Cadastro de alunos
+- Organização de informações
+- Controle de dados
 
 ---
 
-### 🔗 Integração Backend e Frontend
-Conexão entre a interface do usuário (frontend) e a lógica do sistema (backend), permitindo funcionamento completo da aplicação.
+## ➕ Cadastro e Edição de Aprendizes
+
+Permite:
+
+- Registrar novos alunos
+- Editar informações existentes
+- Atualizar dados no sistema
 
 ---
 
-### 🎨 Melhorias Visuais e Ícones
-Aprimoramento da interface com adição de ícones e melhorias no design para melhor experiência do usuário.
+# 🗄️ Banco de Dados
+
+O sistema utiliza banco de dados para armazenamento das informações, garantindo organização, integridade e persistência dos dados.
+
+Informações armazenadas:
+
+- Usuários
+- Turmas
+- Alunos
+- Atividades
+- Dados de autenticação
 
 ---
 
-### 🧪 Testes e Correção de Erros
-Processo de identificação e correção de falhas no sistema para garantir estabilidade e bom funcionamento.
+# 🔗 Integração Frontend e Backend
+
+O sistema realiza comunicação entre interface gráfica e servidor, permitindo funcionamento completo das funcionalidades da aplicação.
 
 ---
 
-### ✅ Testes Finais
-Etapa final de validação do sistema antes da entrega, garantindo que todas as funcionalidades estejam operando corretamente.
+# 🎨 Interface e Design
+
+Foram aplicadas melhorias visuais visando:
+
+- Melhor experiência do usuário
+- Interface intuitiva
+- Organização visual
+- Uso de ícones e elementos gráficos
 
 ---
 
-### 📄 Documentação do Projeto
-Descrição detalhada do funcionamento do sistema, suas funcionalidades e instruções de uso e manutenção.
+# 🧪 Testes e Validação
+
+Foram realizados:
+
+- Testes de funcionalidades
+- Correção de erros
+- Ajustes visuais
+- Validação final do sistema
+
+---
+
+# 💻 Tecnologias Utilizadas
+
+## Front-end
+- HTML5
+- CSS3
+- JavaScript
+
+## Back-end
+- Node.js
+- Express.js
+
+## Banco de Dados
+- MySQL
+
+## Ferramentas
+- GitHub
+- Figma
+- Draw.io
+
+---
+
+# 📂 Estrutura do Projeto
+
+```bash
+📦 projeto-integrador
+ ┣ 📂 frontend
+ ┣ 📂 backend
+ ┣ 📂 database
+ ┣ 📂 docs
+ ┣ 📂 banner
+ ┣ 📂 uml
+ ┗ README.md
+```
+
+---
+
+# 👥 Integrantes
+
+- Vinícius Côrte da Silva
+- Miguel Malheiros Capucci
+- Vinicius Almeida Melo de Oliveira
+
+---
+
+# 📄 Documentação
+
+A documentação do projeto contém:
+
+- DER
+- UML
+- Fluxogramas
+- Requisitos
+- Arquitetura do sistema
+- Banco de dados
+
+---
+
+# ✅ Status do Projeto
+
+🚧 Em desenvolvimento
