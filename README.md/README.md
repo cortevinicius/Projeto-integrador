@@ -204,6 +204,20 @@ A documentação do projeto está disponível na pasta `/docs`.
 
 ---
 
+# 📚 Wiki do Projeto
+
+A documentação detalhada do sistema está disponível na Wiki do repositório.
+
+Conteúdos disponíveis:
+- Funcionalidades
+- UML
+- Fluxogramas
+- Banco de Dados
+- Tecnologias
+- Arquitetura
+
+---
+
 
 # ✅ Status do Projeto
 
