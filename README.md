@@ -92,11 +92,6 @@ Informações armazenadas:
 
 ---
 
-# 🔗 Integração Frontend e Backend
-
-O sistema realiza comunicação entre interface gráfica e servidor, permitindo funcionamento completo das funcionalidades da aplicação.
-
----
 
 # 🎨 Interface e Design
 
@@ -127,10 +122,6 @@ Foram realizados:
 - CSS3
 - JavaScript
 
-## Back-end
-- Node.js
-- Express.js
-
 ## Banco de Dados
 - MySQL
 
@@ -146,7 +137,6 @@ Foram realizados:
 ```bash
 📦 projeto-integrador
  ┣ 📂 frontend
- ┣ 📂 backend
  ┣ 📂 database
  ┣ 📂 docs
  ┣ 📂 banner
