@@ -155,11 +155,6 @@ Os usuários poderão atualizar:
 * CSS3
 * JavaScript
 
-## Back-end
-
-* Node.js
-* Express.js
-
 ## Banco de Dados
 
 * MySQL
@@ -189,17 +184,14 @@ Principais entidades:
 
 # 10. Arquitetura do Sistema
 
-O sistema seguirá arquitetura baseada em:
-
-Frontend → Backend → Banco de Dados
+O sistema foi desenvolvido com foco na interface web e na modelagem de banco de dados, permitindo a organização das informações acadêmicas de forma estruturada.
 
 Fluxo:
 
-1. Usuário acessa interface;
-2. Frontend envia requisições ao backend;
-3. Backend processa informações;
-4. Banco de dados armazena os dados;
-5. Sistema retorna resposta ao usuário.
+1. Usuário acessa a interface do sistema;
+2. Navega pelas funcionalidades disponíveis;
+3. Visualiza e gerencia informações acadêmicas;
+4. Os dados são organizados conforme a modelagem do banco de dados.
 
 ---
 
@@ -209,9 +201,7 @@ O sistema contará com:
 
 * autenticação de usuários;
 * validação de dados;
-* proteção de rotas;
-* utilização de HTTPS;
-* controle de acesso.
+* controle de acesso às funcionalidades.
 
 ---
 
@@ -230,7 +220,6 @@ A aplicação será adaptada para:
 ```txt
 📦 projeto-integrador
  ┣ 📂 frontend
- ┣ 📂 backend
  ┣ 📂 database
  ┣ 📂 docs
  ┣ 📂 uml
@@ -257,4 +246,3 @@ O projeto busca desenvolver:
 # 15. Considerações Finais
 
 O Sistema de Gestão de Turmas e Alunos busca oferecer uma solução prática, organizada e eficiente para gerenciamento acadêmico, integrando conceitos técnicos estudados ao longo do semestre e promovendo experiência prática no desenvolvimento de software.
-
