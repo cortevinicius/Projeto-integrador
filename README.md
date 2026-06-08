@@ -128,13 +128,6 @@ Foram realizados:
  ┗ README.md
 ```
 
----
-
-# 👥 Integrantes
-
-* Vinícius Côrte da Silva
-* Miguel Malheiros Capucci
-* Vinicius Almeida Melo de Oliveira
 
 ---
 
@@ -187,6 +180,14 @@ Conteúdos disponíveis:
 * Arquitetura
 
 ---
+---
+
+# 👥 Integrantes
+
+* Vinícius Côrte da Silva
+* Miguel Malheiros Capucci
+* Vinicius Almeida Melo de Oliveira
+
 
 # ✅ Status do Projeto
 
