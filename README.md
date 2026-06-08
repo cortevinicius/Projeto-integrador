@@ -17,90 +17,70 @@ Desenvolver uma aplicação web capaz de realizar o gerenciamento de alunos e tu
 # 🚀 Funcionalidades do Sistema
 
 ## 🔐 Tela de Login
-Responsável pela autenticação dos usuários através de e-mail e senha, garantindo acesso seguro ao sistema.
 
----
+Responsável pela autenticação dos usuários através de e-mail e senha.
 
 ## 🔑 Recuperação de Senha
-Permite que o usuário redefina sua senha em caso de esquecimento.
 
----
+Permite que o usuário redefina sua senha em caso de esquecimento.
 
 ## 🧑‍🏫 Dashboard do Instrutor
 
-Painel principal do instrutor contendo:
-
-- Visualização de alunos
-- Gerenciamento de turmas
-- Acompanhamento de informações do sistema
-
----
+* Visualização de alunos
+* Gerenciamento de turmas
+* Acompanhamento de informações do sistema
 
 ## 🧑‍🎓 Painel do Aprendiz
 
-Área destinada ao aluno para:
-
-- Visualização de dados pessoais
-- Acompanhamento de atividades
-- Consulta de informações das aulas
-
----
+* Visualização de dados pessoais
+* Acompanhamento de atividades
+* Consulta de informações das aulas
 
 ## 👤 Perfil do Usuário
 
 Permite visualizar e editar informações pessoais como:
 
-- Nome
-- E-mail
-- Senha
-- Dados cadastrais
-
----
+* Nome
+* E-mail
+* Senha
+* Dados cadastrais
 
 ## 📚 Gestão de Turmas e Alunos
 
-Funcionalidades responsáveis pelo gerenciamento acadêmico:
-
-- Cadastro de turmas
-- Cadastro de alunos
-- Organização de informações
-- Controle de dados
-
----
+* Cadastro de turmas
+* Cadastro de alunos
+* Organização de informações
+* Controle de dados
 
 ## ➕ Cadastro e Edição de Aprendizes
 
-Permite:
-
-- Registrar novos alunos
-- Editar informações existentes
-- Atualizar dados no sistema
+* Registrar novos alunos
+* Editar informações existentes
+* Atualizar dados no sistema
 
 ---
 
 # 🗄️ Banco de Dados
 
-O sistema utiliza banco de dados para armazenamento das informações, garantindo organização, integridade e persistência dos dados.
+O sistema utiliza banco de dados para armazenamento das informações, garantindo organização e persistência dos dados.
 
 Informações armazenadas:
 
-- Usuários
-- Turmas
-- Alunos
-- Atividades
-- Dados de autenticação
+* Usuários
+* Turmas
+* Alunos
+* Atividades
 
 ---
-
 
 # 🎨 Interface e Design
 
 Foram aplicadas melhorias visuais visando:
 
-- Melhor experiência do usuário
-- Interface intuitiva
-- Organização visual
-- Uso de ícones e elementos gráficos
+* Melhor experiência do usuário
+* Interface intuitiva
+* Organização visual
+* Uso de ícones e elementos gráficos
 
 ---
 
@@ -108,27 +88,30 @@ Foram aplicadas melhorias visuais visando:
 
 Foram realizados:
 
-- Testes de funcionalidades
-- Correção de erros
-- Ajustes visuais
-- Validação final do sistema
+* Testes de funcionalidades
+* Correção de erros
+* Ajustes visuais
+* Validação final do sistema
 
 ---
 
 # 💻 Tecnologias Utilizadas
 
 ## Front-end
-- HTML5
-- CSS3
-- JavaScript
+
+* HTML5
+* CSS3
+* JavaScript
 
 ## Banco de Dados
-- MySQL
+
+* MySQL
 
 ## Ferramentas
-- GitHub
-- Figma
-- Draw.io
+
+* GitHub
+* Figma
+* Draw.io
 
 ---
 
@@ -141,6 +124,7 @@ Foram realizados:
  ┣ 📂 docs
  ┣ 📂 banner
  ┣ 📂 uml
+ ┣ 📂 fluxogramas
  ┗ README.md
 ```
 
@@ -148,9 +132,9 @@ Foram realizados:
 
 # 👥 Integrantes
 
-- Vinícius Côrte da Silva
-- Miguel Malheiros Capucci
-- Vinicius Almeida Melo de Oliveira
+* Vinícius Côrte da Silva
+* Miguel Malheiros Capucci
+* Vinicius Almeida Melo de Oliveira
 
 ---
 
@@ -158,12 +142,12 @@ Foram realizados:
 
 A documentação do projeto contém:
 
-- DER
-- UML
-- Fluxogramas
-- Requisitos
-- Arquitetura do sistema
-- Banco de dados
+* DER
+* UML
+* Fluxogramas
+* Requisitos
+* Arquitetura do sistema
+* Banco de dados
 
 ---
 
@@ -171,9 +155,9 @@ A documentação do projeto contém:
 
 Os diagramas UML do sistema estão disponíveis na pasta `/uml`.
 
-- Caso de Uso
-- Diagrama de Classe
-- Diagrama de Atividade
+* Caso de Uso
+* Diagrama de Classe
+* Diagrama de Atividade
 
 ---
 
@@ -182,15 +166,10 @@ Os diagramas UML do sistema estão disponíveis na pasta `/uml`.
 Os fluxogramas do sistema estão disponíveis na pasta `/fluxogramas`.
 
 Fluxos documentados:
-- Login
-- Cadastro de Alunos
-- Cadastro de Turmas
-  
----
 
-# 📄 Documentação
-
-A documentação do projeto está disponível na pasta `/docs`.
+* Login
+* Cadastro de Alunos
+* Cadastro de Turmas
 
 ---
 
@@ -199,15 +178,15 @@ A documentação do projeto está disponível na pasta `/docs`.
 A documentação detalhada do sistema está disponível na Wiki do repositório.
 
 Conteúdos disponíveis:
-- Funcionalidades
-- UML
-- Fluxogramas
-- Banco de Dados
-- Tecnologias
-- Arquitetura
+
+* Funcionalidades
+* UML
+* Fluxogramas
+* Banco de Dados
+* Tecnologias
+* Arquitetura
 
 ---
-
 
 # ✅ Status do Projeto
 
