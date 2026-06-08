@@ -129,7 +129,6 @@ Foram realizados:
 ```
 
 
----
 
 # 📄 Documentação
 
@@ -179,7 +178,6 @@ Conteúdos disponíveis:
 * Tecnologias
 * Arquitetura
 
----
 ---
 
 # 👥 Integrantes
