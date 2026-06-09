@@ -1,12 +1,18 @@
-# Database
+# Banco de Dados - PostgreSQL
 
-Responsável pelo armazenamento e gerenciamento dos dados do sistema.
+Sistema de Gestão de Turmas e Alunos
 
-Banco utilizado:
-- MySQL
+## Estrutura
 
-Entidades principais:
-- usuários
-- alunos
-- turmas
-- atividades
+- 01_schema.sql → criação do banco
+- 02_tables.sql → criação das tabelas
+- 03_seed.sql → dados de teste
+
+## Tecnologias
+- PostgreSQL
+
+## Como usar
+Execute os arquivos na ordem:
+1. schema
+2. tables
+3. seed
