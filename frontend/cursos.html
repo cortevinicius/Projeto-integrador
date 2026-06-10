@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Meus Cursos</title>
+
+<link rel="stylesheet" href="/css/cursos.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>SENAI-2026</h2>
+            <span>Industrial Intelligence</span>
+        </div>
+
+        <nav>
+
+            <a href="dashbord.html">
+                <i class="fa-solid fa-house"></i>
+                Dashboard
+            </a>
+
+            <a href="perfil.html">
+                <i class="fa-solid fa-user"></i>
+                Meu Perfil
+            </a>
+
+            <a href="cursos.html" class="active">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Cursos
+            </a>
+
+           
+        </nav>
+
+    </aside>
+
+    <main class="content">
+
+        <div class="topo">
+
+            <div>
+                <h1>Meus Cursos</h1>
+                <p>Acompanhe seu progresso acadêmico.</p>
+            </div>
+
+            <div class="pesquisa">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                type="text"
+                id="pesquisaCurso"
+                placeholder="Pesquisar curso..."
+                onkeyup="filtrarCursos()">
+
+            </div>
+
+        </div>
+
+        <div class="cursos-grid">
+
+            <div class="curso-card curso">
+
+                <div class="curso-banner java">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+
+                <div class="curso-info">
+
+                    <h3>Java Orientado a Objetos</h3>
+
+                    <p>
+                        Aprenda conceitos avançados de
+                        programação orientada a objetos.
+                    </p>
+
+                    <div class="barra">
+                        <div class="progresso p80"></div>
+                    </div>
+
+                    <span>80% concluído</span>
+
+                    <button>
+                        Acessar Curso
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="curso-card curso">
+
+                <div class="curso-banner banco">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <div class="curso-info">
+
+                    <h3>Banco de Dados SQL</h3>
+
+                    <p>
+                        Modelagem, consultas SQL e
+                        administração de bancos.
+                    </p>
+
+                    <div class="barra">
+                        <div class="progresso p65"></div>
+                    </div>
+
+                    <span>65% concluído</span>
+
+                    <button>
+                        Acessar Curso
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="curso-card curso">
+
+                <div class="curso-banner web">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="curso-info">
+
+                    <h3>Desenvolvimento Web</h3>
+
+                    <p>
+                        HTML, CSS, JavaScript e
+                        aplicações responsivas.
+                    </p>
+
+                    <div class="barra">
+                        <div class="progresso p100"></div>
+                    </div>
+
+                    <span>Concluído</span>
+
+                    <button>
+                        Ver Certificado
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="curso-card curso">
+
+                <div class="curso-banner redes">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+
+                <div class="curso-info">
+
+                    <h3>Redes de Computadores</h3>
+
+                    <p>
+                        Protocolos, VLANs e
+                        infraestrutura de redes.
+                    </p>
+
+                    <div class="barra">
+                        <div class="progresso p40"></div>
+                    </div>
+
+                    <span>40% concluído</span>
+
+                    <button>
+                        Acessar Curso
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="semResultado" class="sem-resultado">
+            Nenhum curso encontrado.
+        </div>
+
+    </main>
+
+</div>
+
+<script>
+
+function filtrarCursos(){
+
+    let pesquisa =
+    document.getElementById("pesquisaCurso")
+    .value
+    .toLowerCase();
+
+    let cursos =
+    document.querySelectorAll(".curso");
+
+    let encontrou = false;
+
+    cursos.forEach(curso => {
+
+        let titulo =
+        curso.querySelector("h3")
+        .textContent
+        .toLowerCase();
+
+        if(titulo.includes(pesquisa)){
+
+            curso.style.display = "block";
+            encontrou = true;
+
+        }else{
+
+            curso.style.display = "none";
+
+        }
+
+    });
+
+    document.getElementById("semResultado")
+    .style.display = encontrou ? "none" : "block";
+
+}
+
+</script>
+
+</body>
+</html>
