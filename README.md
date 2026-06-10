@@ -182,7 +182,7 @@ Conteúdos disponíveis:
 # 👥 Integrantes
 
 * Vinícius Côrte da Silva
-* Miguel Malheiros Capucci
+* Miguel Capucci Melheiros
 * Vinicius Almeida Melo de Oliveira
 
 ---
