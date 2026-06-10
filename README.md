@@ -117,16 +117,15 @@ Foram realizados:
 
 # 📂 Estrutura do Projeto
 
-```bash
 📦 projeto-integrador
  ┣ 📂 frontend
+ ┣ 📂 css
  ┣ 📂 database
  ┣ 📂 docs
  ┣ 📂 banner
  ┣ 📂 uml
  ┣ 📂 fluxogramas
  ┗ README.md
-```
 
 
 
@@ -186,7 +185,14 @@ Conteúdos disponíveis:
 * Miguel Malheiros Capucci
 * Vinicius Almeida Melo de Oliveira
 
+---
+
+# 📌 Considerações Finais
+
+O Sistema de Gestão de Turmas e Alunos foi desenvolvido com o objetivo de aplicar os conhecimentos adquiridos ao longo do curso, integrando conceitos de desenvolvimento web, banco de dados, modelagem de sistemas e documentação técnica.
+
+--- 
 
 # ✅ Status do Projeto
 
-🚧 Em desenvolvimento
+🚀 Projeto concluído.
