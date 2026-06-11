@@ -1,4 +1,4 @@
-# Banco de Dados - PostgreSQL
+# Banco de Dados - MySQL
 
 Sistema de Gestão de Turmas e Alunos
 
@@ -9,10 +9,13 @@ Sistema de Gestão de Turmas e Alunos
 - 03_seed.sql → dados de teste
 
 ## Tecnologias
-- PostgreSQL
+
+- MySQL
 
 ## Como usar
+
 Execute os arquivos na ordem:
+
 1. schema
 2. tables
 3. seed
