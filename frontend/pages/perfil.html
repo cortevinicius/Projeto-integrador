@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Meu Perfil - SENAI-2026</title>
+
+<link rel="stylesheet" href="../css/perfil.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>SENAI-2026</h2>
+            <span>Industrial Intelligence</span>
+        </div>
+
+        <nav>
+
+            <a href="dashbord.html">
+                <i class="fa-solid fa-house"></i>
+                Dashbord
+            </a>
+
+            <a href="perfil.html" class="active">
+                <i class="fa-solid fa-user"></i>
+                Meu Perfil
+            </a>
+
+            <a href="cursos.html">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Cursos
+            </a>
+
+
+          
+        </nav>
+
+    </aside>
+
+    <main class="content">
+
+        <div class="banner"></div>
+
+        <div class="perfil-topo">
+
+            <div class="foto-container">
+
+                <img id="fotoPerfil" src="/assets/avatar1.png" alt="Foto">
+
+                <input
+                type="file"
+                id="uploadFoto"
+                accept="image/*"
+                hidden
+                onchange="trocarFoto(event)">
+
+                <button
+                class="btn-foto"
+                onclick="document.getElementById('uploadFoto').click()">
+
+                    <i class="fa-solid fa-camera"></i>
+
+                </button>
+
+            </div>
+
+           <h1 id="nomePerfil"></h1>
+
+            <p>Aluno • SENAI-2026</p>
+
+        </div>
+
+        <section class="stats">
+
+            <div class="stat-card">
+                <i class="fa-solid fa-book"></i>
+                <h2>12</h2>
+                <span>Cursos</span>
+            </div>
+
+            <div class="stat-card">
+                <i class="fa-solid fa-award"></i>
+                <h2>8</h2>
+                <span>Certificados</span>
+            </div>
+
+            <div class="stat-card">
+                <i class="fa-solid fa-clock"></i>
+                <h2>120h</h2>
+                <span>Horas</span>
+            </div>
+
+        </section>
+
+        <div class="perfil-card">
+
+            <h2>Informações Pessoais</h2>
+
+            <div class="grid">
+
+                <div class="campo">
+                    <label>Nome Completo</label>
+                    <input type="text" id="nomeInput">
+                </div>
+
+                <div class="campo">
+                    <label>E-mail</label>
+                    <input type="email" value="miguel@senai.br">
+                </div>
+
+                <div class="campo">
+                    <label>Telefone</label>
+                    <input type="text" value="(11) 99999-9999">
+                </div>
+
+                <div class="campo">
+                    <label>Curso</label>
+                    <input type="text" value="Análise e Desenvolvimento de Sistemas">
+                </div>
+
+            </div>
+
+            <h2 class="titulo-seguranca">
+                Segurança da Conta
+            </h2>
+
+            <div class="grid">
+
+                <div class="campo">
+                    <label>Nova Senha</label>
+                    <input type="password">
+                </div>
+
+                <div class="campo">
+                    <label>Confirmar Senha</label>
+                    <input type="password">
+                </div>
+
+            </div>
+
+            <button
+            class="salvar"
+            onclick="salvarPerfil()">
+
+                Salvar Alterações
+
+            </button>
+
+            <div
+            id="mensagem"
+            class="mensagem">
+
+                ✔ Dados atualizados com sucesso!
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script>
+
+function trocarFoto(event){
+
+    const arquivo = event.target.files[0];
+
+    if(!arquivo) return;
+
+    const leitor = new FileReader();
+
+    leitor.onload = function(e){
+
+        document
+        .getElementById("fotoPerfil")
+        .src = e.target.result;
+
+    }
+
+    leitor.readAsDataURL(arquivo);
+}
+
+function salvarPerfil(){
+
+    const nome = document.getElementById("nomeInput").value;
+
+    localStorage.setItem("nomeAluno", nome);
+
+    document.getElementById("nomePerfil").textContent = nome;
+
+    document.getElementById("mensagem").style.display = "block";
+
+    setTimeout(()=>{
+
+        document.getElementById("mensagem").style.display = "none";
+
+    },3000);
+
+    document.getElementById("nomePerfil").textContent =
+    localStorage.getItem("nomeAluno") || "Aluno";
+
+document.getElementById("nomeInput").value =
+    localStorage.getItem("nomeAluno") || "";
+}
+
+
+
+</script>
+
+</body>
+</html>

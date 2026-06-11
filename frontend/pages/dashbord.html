@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashbord</title>
+
+<link rel="stylesheet" href="/css/dashbord.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- MENU LATERAL -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>SENAI-2026</h2>
+            <span>Industrial Intelligence</span>
+        </div>
+
+        <nav>
+
+            <a href="dashbord.html" class="active">
+                <i class="fa-solid fa-house"></i>
+                Dashbord
+            </a>
+
+            <a href="perfil.html">
+                <i class="fa-solid fa-user"></i>
+                Meu Perfil
+            </a>
+
+            <a href="./cursos.html">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Cursos
+            </a>
+
+            <a href="/frontend/inicio.html" class="btn-voltar">
+                <i class="fa-solid fa-arrow-left"></i>
+                Voltar para o Login
+            </a>
+
+        </nav>
+
+    </aside>
+
+    <!-- CONTEÚDO -->
+
+    <main class="content">
+
+        <header>
+
+            <div>
+                <h1 id="nomeAluno">Bem-vindo </h1>
+                <p>Acompanhe seu progresso acadêmico.</p>
+            </div>
+
+            <div class="perfil">
+                <img src="/assets/avatar.webp" alt="">
+            </div>
+
+        </header>
+
+        <!-- CARDS -->
+
+        <section class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-book"></i>
+                <h2>12</h2>
+                <p>Cursos Concluídos</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-award"></i>
+                <h2>8</h2>
+                <p>Certificados</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>92%</h2>
+                <p>Desempenho</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-clock"></i>
+                <h2>120h</h2>
+                <p>Carga Horária</p>
+            </div>
+
+        </section>
+
+        <!-- PAINÉIS -->
+
+        <section class="painel">
+
+            <div class="atividade">
+
+                <h2>Atividades Recentes</h2>
+
+                <ul>
+
+                    <li>
+                        ✔ Curso de Java concluído
+                    </li>
+
+                    <li>
+                        ✔ Certificado emitido
+                    </li>
+
+                    <li>
+                        ✔ Avaliação entregue
+                    </li>
+
+                    <li>
+                        ✔ Novo curso disponível
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="resumo">
+
+                <h2>Resumo Acadêmico</h2>
+
+                <p>
+                    Você está com excelente desempenho
+                    e dentro das metas estabelecidas.
+                </p>
+
+                <div class="barra">
+
+                    <div class="progresso"></div>
+
+                </div>
+
+                <span>92% concluído</span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script>
+function carregarUsuario() {
+   let nome = localStorage.getItem("nomeAluno");
+
+if (!nome) {
+    nome = prompt("Digite seu nome:");
+    localStorage.setItem("nomeAluno", nome);
+}
+
+    if(nome && nome.trim() !== "") {
+        document.getElementById("boasVindas").innerHTML =
+            "Bem-vindo, " + nome + " 👋";
+    }
+}
+
+window.onload = carregarUsuario;
+</script>
+
+</body>
+</html>
