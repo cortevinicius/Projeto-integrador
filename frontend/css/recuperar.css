@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box{
+    width:550px;
+    background:white;
+    padding:50px;
+    border-radius:16px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+    text-align:center;
+}
+
+.logo{
+    margin-bottom:30px;
+}
+
+.logo h2{
+    color:#0039a6;
+    font-size:38px;
+}
+
+.logo span{
+    color:#777;
+    font-size:12px;
+    letter-spacing:3px;
+}
+
+.icone{
+    width:90px;
+    height:90px;
+
+    margin:auto;
+
+    background:#eef3ff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom:25px;
+}
+
+.icone i{
+    color:#0039a6;
+    font-size:38px;
+}
+
+h1{
+    color:#222;
+    margin-bottom:15px;
+}
+
+p{
+    color:#666;
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+label{
+    display:block;
+    text-align:left;
+    margin-bottom:10px;
+    font-weight:600;
+}
+
+.input-box{
+    display:flex;
+    align-items:center;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    overflow:hidden;
+}
+
+.input-box i{
+    padding:15px;
+    color:#888;
+}
+
+.input-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:15px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+
+    margin-top:25px;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#0039a6;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+    background:#00256c;
+}
+
+.voltar{
+    display:inline-block;
+
+    margin-top:25px;
+
+    color:#0039a6;
+
+    text-decoration:none;
+
+    font-weight:600;
+}
+
+.voltar:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:700px){
+
+    .box{
+        width:95%;
+        padding:30px;
+    }
+
+}
+
+.mensagem{
+    display:none;
+    margin-top:20px;
+    padding:15px;
+    background:#d4edda;
+    color:#155724;
+    border:1px solid #c3e6cb;
+    border-radius:8px;
+    font-weight:600;
+    text-align:center;
+}
