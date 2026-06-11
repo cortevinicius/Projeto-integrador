@@ -118,15 +118,12 @@ Foram realizados:
 # 📂 Estrutura do Projeto
 
 📦 projeto-integrador
- ┣ 📂 css
- ┣ 📂 js
  ┣ 📂 banner
  ┣ 📂 database
  ┣ 📂 docs
  ┣ 📂 fluxogramas
  ┣ 📂 frontend
  ┣ 📂 uml
- ┣ PROJETO INTEGRADOR - SISTEMA DE GESTÃO DE TURMAS DE ALUNOS
  ┗ README.md
 
 
