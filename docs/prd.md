@@ -64,16 +64,6 @@ Permitir autenticação segura de usuários utilizando:
 
 Possibilitar redefinição de senha em caso de esquecimento.
 
----
-
-## 5.3 Dashboard do Instrutor
-
-O instrutor poderá:
-
-* visualizar alunos;
-* gerenciar turmas;
-* acompanhar informações do sistema;
-* acessar atividades.
 
 ---
 
@@ -84,17 +74,6 @@ O aprendiz poderá:
 * visualizar perfil;
 * acompanhar atividades;
 * consultar informações das aulas.
-
----
-
-## 5.5 Gestão de Turmas
-
-Permitir:
-
-* criar turmas;
-* editar turmas;
-* excluir turmas;
-* organizar dados.
 
 ---
 
