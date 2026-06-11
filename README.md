@@ -24,11 +24,6 @@ Responsável pela autenticação dos usuários através de e-mail e senha.
 
 Permite que o usuário redefina sua senha em caso de esquecimento.
 
-## 🧑‍🏫 Dashboard do Instrutor
-
-* Visualização de alunos
-* Gerenciamento de turmas
-* Acompanhamento de informações do sistema
 
 ## 🧑‍🎓 Painel do Aprendiz
 
@@ -44,13 +39,6 @@ Permite visualizar e editar informações pessoais como:
 * E-mail
 * Senha
 * Dados cadastrais
-
-## 📚 Gestão de Turmas e Alunos
-
-* Cadastro de turmas
-* Cadastro de alunos
-* Organização de informações
-* Controle de dados
 
 ## ➕ Cadastro e Edição de Aprendizes
 
