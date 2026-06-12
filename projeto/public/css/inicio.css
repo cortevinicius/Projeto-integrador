@@ -1,0 +1,194 @@
+body {
+  background: red !important;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    height:100vh;
+    background:#f5f7fb;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+}
+
+/* ESQUERDA */
+
+.left{
+    width:60%;
+    position:relative;
+
+    background:
+    linear-gradient(
+    rgba(0,30,120,.85),
+    rgba(0,30,120,.85)),
+    url("https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?q=80&w=1600");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.texto-esquerda{
+    position:absolute;
+    left:60px;
+    bottom:80px;
+    color:white;
+}
+
+.texto-esquerda h1{
+    font-size:62px;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.texto-esquerda p{
+    font-size:22px;
+    width:70%;
+    line-height:1.6;
+}
+
+/* DIREITA */
+
+.right{
+    width:40%;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:40px;
+}
+
+.logo h2{
+    color:#0039a6;
+    font-size:38px;
+}
+
+.logo span{
+    color:#8c8c8c;
+    letter-spacing:3px;
+    font-size:12px;
+}
+
+.login-box{
+    max-width:500px;
+}
+
+.login-box h1{
+    font-size:52px;
+    margin-bottom:15px;
+    color:#1e1e1e;
+}
+
+.login-box p{
+    color:#666;
+    line-height:1.6;
+    margin-bottom:40px;
+}
+
+.login-box label{
+    display:block;
+    margin-bottom:10px;
+    margin-top:20px;
+    font-weight:600;
+    color:#444;
+}
+
+.input-box{
+    display:flex;
+    align-items:center;
+    border:1px solid #ddd;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.input-box i{
+    padding:16px;
+    color:#888;
+}
+
+.input-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:16px;
+    font-size:16px;
+}
+
+.opcoes{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:14px;
+}
+
+.opcoes a{
+    color:#0039a6;
+    text-decoration:none;
+}
+
+button{
+    width:100%;
+    margin-top:30px;
+    padding:18px;
+    border:none;
+    border-radius:8px;
+    background:#002f87;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#001f5a;
+}
+
+.info{
+    margin-top:40px;
+    border-left:4px solid #0039a6;
+    background:#f7f8fb;
+    padding:20px;
+    color:#555;
+    line-height:1.6;
+}
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:13px;
+    color:#888;
+}
+
+footer a{
+    margin-left:20px;
+    color:#888;
+    text-decoration:none;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:1000px){
+
+    .left{
+        display:none;
+    }
+
+    .right{
+        width:100%;
+    }
+
+    .login-box h1{
+        font-size:40px;
+    }
+
+}
